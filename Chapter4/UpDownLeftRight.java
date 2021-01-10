@@ -21,7 +21,7 @@ public class UpDownLeftRight {
             else if (directions[i].equals("R") && y_coord != N) 
                 y_coord++; 
         }
-        
+
         System.out.println(x_coord + " " + y_coord);
     }
 }

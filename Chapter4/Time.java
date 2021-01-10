@@ -5,7 +5,6 @@ public class Time {
         Scanner sc = new Scanner(System.in); 
         int N = sc.nextInt();
 
-        // 3, 13, 23
         int number_threes = 0;
         if (N >= 3 && N < 13) 
             number_threes = 1;
